@@ -1,0 +1,147 @@
+/* Header Part Start */
+.navigation-area .navbar-brand {
+    font-size: 32px;
+}
+.navigation-area{
+    padding: 10px 0;
+    background-color:#000 !important;
+    border-bottom: 2px solid ;
+}
+.navigation-area .list >ul >li a{
+    border-bottom: 1px solid transparent !important;
+}
+.navigation-area .list >ul >li:hover a{
+    border-bottom: 1px solid #fff !important;
+}
+.header-main-part{
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)),url(../img/hero_1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 80px 0;
+}
+.header-main-part .row{
+    margin-top: 150px;
+}
+.header-main-part .row button a:hover{
+    text-decoration: none !important;
+}
+/* Header Part End */
+
+/* Course Section Start */
+.courses{
+    background: #8e44ad;
+    overflow: hidden;
+    min-height: 300px;
+}
+
+/* Students Tile Section Start */
+.students-tile .row{
+    margin-top: -150px; 
+    margin-bottom: 40px;   
+}
+/* Students Tile Section End */
+
+/* Strive Tile Section Start */
+.strive{
+    margin: 150px 0;
+}
+.graduates span,
+.university span{
+    color : #3498db;
+}
+/* Strive Tile Section End */
+
+/* Education Section Start */
+.education{
+    margin-bottom: 150px;
+}
+.image{
+    margin-top: -50px !important;
+}
+/* Education Section End */
+
+/* Teachers List Section Start */
+.teachers-list .row{
+    margin: 150px 0 !important;
+}
+/* Teachers List Section End */
+
+/* Review Section Start */
+.review{
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(../img/hero_1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.review p{
+    font-size: 20px;
+}
+/* Choose Section Start */
+.choose{
+    position: relative;
+    overflow: hidden;
+}
+.choose .future-blobs{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.blob-1{
+    position: absolute;
+    top: 0;
+    right: -10rem;
+}
+.blob-2{
+    position: absolute;
+    bottom: 0;
+    left: -10rem;
+}
+.choose .col-lg-4{
+    margin-top: 120px;
+}
+.choose .col-lg-4 span{
+    font-size: 20px;
+    color: #000;
+}
+/* Choose Section End */
+
+/* Message Section Start */
+.message-us{
+    overflow: hidden;
+    background: #F8F9FA;
+}
+.message-us h2{
+    font-size: 48px !important;
+    margin-top: 100px;
+}
+.message-us form{
+    margin-bottom: 100px !important;
+}
+.message-us input{
+    font-size: 18px;
+}
+/* Message Section End */
+
+/* Footer Section Start */
+footer{
+    margin: 40px 0;
+    overflow: hidden;
+}
+footer .col-md-2 a{
+    font-size: 20px;
+}
+footer .copyright{
+    margin: 30px 0;
+    font-size: 20px;
+}
+/* Footer Section Start */
+
+/* Responsive Media */
+@media screen and (max-width:768px){
+    .strive{
+        margin: 50px 0;
+    }
+}
